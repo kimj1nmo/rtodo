@@ -5,7 +5,6 @@ import Todo from '../Todo'
 
 function TodoList() {
     // tanstack query에 접근
-
     const queryClient = useQueryClient()
   const jcTxt=useRef(null)
   
